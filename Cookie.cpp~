@@ -2,3 +2,18 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+FortuneCookie::FortuneCookie()
+{
+	cout << "DEFAULT CONSTRUCTOR" << endl;
+}//END DEFAULT CONSTRUCTOR
+
+void FortuneCookie::openFortuneCookie()
+{
+	cout << "OPEN FORTUNE COOKIE" << endl;
+}//END OPEN FORTUNE COOKIE
+
+void FortuneCookie::generateNewFortune()
+{
+	cout << "GENERATE NEW FORTUNE" << endl;
+}//END GENERATE NEW FORTUNE
